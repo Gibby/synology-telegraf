@@ -26,7 +26,7 @@
 * Install Log center From Synology package center
 * Open Log center app
 * Click on Log Sending > check "Send log to syslog server"
-* Set Server = ***localhost***,  port = ***5144***, Protocol = ***UDP***, Format = ***BSD (RFC 3164)***
+* Set Server = ***localhost***,  port = ***6514***, Protocol = ***UDP***, Format = ***IETF (RFC 5424)***
 * For testing, click on "Send test log" 
 * Apply
 

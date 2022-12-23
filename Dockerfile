@@ -6,8 +6,5 @@ ADD etc etc
 # Add usr directory (Synology MIBS)
 ADD usr usr
 
-# Install Syslog-NG
-RUN apk add --no-cache syslog-ng
-
-# Expose Syslog-NG port
-EXPOSE 6514/udp
+# Expose InfluxDB Syslog port
+EXPOSE 6514/tcp
