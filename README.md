@@ -22,6 +22,14 @@
 * Edit the outputs, either influxdb or influxdb_v2
 * Copy `telegraf.conf` to your Synology somewhere
 
+## Enable Logging
+* Install Log center From Synology package center
+* Open Log center app
+* Click on Log Sending > check "Send log to syslog server"
+* Set Server = ***localhost***,  port = ***5144***, Protocol = ***UDP***, Format = ***BSD (RFC 3164)***
+* For testing, click on "Send test log" 
+* Apply
+
 ## Run Docker image in your Synology
 * Install Docker from Synology package center
 * Do one of the following

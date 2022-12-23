@@ -1,7 +1,13 @@
 FROM telegraf:1.25.0-alpine
 
-# Add default telegraf config
+# Add etc directory (Default telegraf.conf and syslog-ng.conf)
 ADD etc etc
 
-# Add Synology MIBS
+# Add usr directory (Synology MIBS)
 ADD usr usr
+
+# Install Syslog-NG
+RUN apk add --no-cache syslog-ng
+
+# Expose Syslog-NG port
+EXPOSE 5144/udp
