@@ -39,9 +39,15 @@
 * Wait until it finishes downloading the image
 * Click on the image and then click on Launch
 * Network Tab keep it in bridge mode 
+* Next
+* (Optional) Update Container Name
 * Check "Enable auto-restart."
+* Next
+* Port settings, just change Local port for 5144 from Auto to 5144
+* Next
 * In Volume settings, click Add file and select the `telegraf.conf` file, on mount Path, paste ***/etc/telegraf/telegraf.conf*** and `check Read-Only`
-* Apply, Next, Done and your container should be ready.
+* Next
+* Done
 
 ## Add Dashboard in Grafana (only do 1)
 * Import [Synology-Dashboard.json](Synology-Dashboard.json)
