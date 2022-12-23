@@ -107,5 +107,5 @@ jobs:
         with:
           destination_container_repo: ${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}
           provider: dockerhub
-          short_description: 'Docker container for setting up a Privoxy proxy that pushes traffic over a ProtonVPN connection.'
+          short_description: 'Docker with telegraf setup for Synology. Needs external Influx and Grafana.'
           readme_file: 'README.md'
