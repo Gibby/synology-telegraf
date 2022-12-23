@@ -10,4 +10,4 @@ ADD usr usr
 RUN apk add --no-cache syslog-ng
 
 # Expose Syslog-NG port
-EXPOSE 5144/udp
+EXPOSE 6514/udp
