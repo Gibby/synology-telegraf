@@ -130,7 +130,7 @@ controllerNumber OBJECT-TYPE
     "Synology system controller number
     Controller A(0)
     Controller B(1)
-   "
+	"
     ::= { synoSystem 6 }
 
 
