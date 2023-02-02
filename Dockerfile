@@ -1,4 +1,4 @@
-FROM telegraf:1.25.0-alpine
+FROM telegraf:1.25.1-alpine
 
 # Add etc directory (Default telegraf.conf and syslog-ng.conf)
 ADD etc etc
