@@ -9,7 +9,7 @@ jobs:
   create-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: GoogleCloudPlatform/release-please-action@v3.7.1
+      - uses: GoogleCloudPlatform/release-please-action@v3.7.7
         id: release
         with:
           token: "${{ secrets.PACKAGES_TOKEN }}"
