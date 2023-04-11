@@ -15,7 +15,7 @@ jobs:
         run: echo "##[set-output name=branch;]${GITHUB_REF#refs/heads/}"
         id: extract_branch
 
-      - uses: GoogleCloudPlatform/release-please-action@v3.7.1
+      - uses: GoogleCloudPlatform/release-please-action@v3.7.8
         id: release
         with:
           release-type: simple
